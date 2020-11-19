@@ -1,0 +1,189 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.header-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 5rem;
+    position: static;
+    top: 0rem;
+    right: 10%;
+    left: 10%;
+}
+#logo {
+    width: 10rem;
+    height: 5rem;
+    position:relative;
+    float: left;
+    top: 0rem;
+    left: 0rem;
+}
+.bg1     {
+    background-image: url(models.jpg);
+}
+.bg2 {
+    background-image: url(safety1.png);
+    background-color: lightgrey;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 80%;
+    left: 20%;
+    height: 100vh;
+}
+.bg3 {
+    background-image: url(performaceS.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.bg3_5 {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+}
+.bg4 {
+    background-image: url(range.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.pg2 {
+    width: 27%;
+    padding-left: 0rem;
+    position: absolute;
+    left: -23%;
+    top: 2rem;
+}
+.pg2 h2{
+    font-size: 20px;
+}
+.pg2 h4 {
+    font-size: 13px;
+    position: relative;
+    width: 80%;
+}
+.pg3 {
+    width: 20%;
+    padding-left: 2rem;
+    position: relative;
+    left: 20%;
+    font-size: 15px;
+    top: 4rem;
+}
+.pg3_1 {
+    font-size: 25px;
+}
+.pg3_2 {
+    width: 40%;
+    padding-left: 2rem;
+    position: relative;
+    left: 42%;
+    font-size: 15px;
+    top: 1rem;
+}
+.pg4 {
+    width: 25%;
+    padding-left: 0rem;
+    position: absolute;
+    top: 1rem;
+    right: -5rem;
+}
+.pg4 h2{
+    font-size: 25px;
+}
+.pg4 h4 {
+    font-size: 15px;
+    position: relative;
+    width: 80%;
+}
+.modelH {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+a:hover {
+    font-weight: bold;
+}
+.model {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    font-size: 2.5rem;
+    color: white;
+}
+.price {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 5%;
+    font-size: 1.5rem;
+    color: white;
+}
+.detalii {
+    display: flex;
+    justify-content: space-around;  
+    align-items: stretch;
+    position: relative;
+    top: 65%;
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    left: 38%;
+
+}
+.detali {
+    display: flex;
+    justify-content: space-around;  
+    align-items: stretch;
+    position: relative;
+    top: 75%;
+    width: 45vw;
+    height: 10vh;
+    text-align: center;
+    left: 32%;
+
+}
+.detal {
+    display: flex;
+    justify-content: space-around;  
+    align-items: stretch;
+    position: relative;
+    top: 85%;
+    width: 45vw;
+    height: 10vh;
+    text-align: center;
+    left: 32%;
+
+}
+.detalii1 {
+    align-self: center;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    font-size: 25px;
+}
+.bordura {
+    border-right: 1px solid black;
+}
+.subdetalii {
+    font-size: 10px;
+}
+.detalii2 {
+    position: relative;
+    left: 3rem;
+}

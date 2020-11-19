@@ -1,0 +1,99 @@
+body {
+    background-image: url('iron4.jpg');
+    color: white;
+  }
+      p:hover {
+          font-weight:bold;
+      }
+      h1   {
+        color: red;
+        text-shadow: 2px 2px 5px red;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 40px;
+    }
+      a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  /* comentariu */
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      color: white;
+  }
+  table, th, td {
+      color: white;
+      border: 1px solid white;
+      text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  tr:hover {background-color: grey;}
+  .mark{
+      font-size: 1cm;
+      color: white;
+  }
+  #waw {
+      color: red;
+  }
+  h1 {
+    background-color: green;
+    opacity: 0.3;
+  }
+  h3 {
+    background-image: url("poza2.jpg");
+    background-repeat: no-repeat;
+    font: 20px Arial, sans-serif;
+  }
+  h4 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: grey;
+    border-radius: 5px;
+  }
+  h2 {
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+  }
+  .random {
+    border: 1px solid white;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+  }
+  ul li {
+    background:blue;
+    margin: 5px;
+  }
+  .random1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  img {
+    float: right;
+  }
